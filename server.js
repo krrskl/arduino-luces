@@ -57,9 +57,11 @@ board.on("ready", function () {
 
     io.sockets.on('connection', function (socket) {
         socket.on('data', function (n) {
+            encender(n);
         });
 
         socket.on('slider', function(n){
+            encenderSlider(n);
         });
     })
 });

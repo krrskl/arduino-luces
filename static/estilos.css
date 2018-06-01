@@ -1,6 +1,13 @@
-@media (max-width: 375px) {
+@media (max-width: 425px) {
     #defaultCanvas0{
-        width: 300px !important; 
+        width: 100% !important; 
+        height: 200px !important;
+    }
+}
+
+@media (min-width: 1000px) {
+    #defaultCanvas0{
+        width: 100% !important; 
         height: 200px !important;
     }
 }
@@ -8,10 +15,9 @@
 #Micanvas {
     width: 90%;
     margin: auto;
-}
-
-canvas {
-    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 nav {
