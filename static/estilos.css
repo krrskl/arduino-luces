@@ -1,0 +1,19 @@
+@media (max-width: 375px) {
+    #defaultCanvas0{
+        width: 300px !important; 
+        height: 200px !important;
+    }
+}
+
+#Micanvas {
+    width: 90%;
+    margin: auto;
+}
+
+canvas {
+    width: 100% !important;
+}
+
+nav {
+    background-color: #2196F3;
+}

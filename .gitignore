@@ -1,0 +1,9 @@
+dist/
+node_modules/
+.cache/
+privateKey.key
+certificate.crt
+.vscode
+server.crt
+server.csr
+server.key
