@@ -70,6 +70,11 @@ function encenderSlider(n){
         for (i = 2; i <= n; i++) {
             eval('pin' + i).high();
         }
+        board.wait(100, function () {
+            for (i = n; i >= 2; i--) {
+                eval('pin' + i).low();
+            }
+        });
     }
 }
 
